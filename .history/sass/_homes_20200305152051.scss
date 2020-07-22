@@ -1,0 +1,10 @@
+.homes{
+    grid-column: center-start / center-end;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minamx(25rem, 1fr));
+}
+
+.home{
+    background-color: $color-primary-;
+}

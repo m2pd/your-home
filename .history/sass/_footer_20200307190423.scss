@@ -1,0 +1,9 @@
+.footer{
+    background-color: $color-grey-light-2;
+    grid-column: full-start / full-end;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
